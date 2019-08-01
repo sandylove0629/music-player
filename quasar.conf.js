@@ -79,6 +79,7 @@ module.exports = function (ctx) {
         })
       },
       publicPath: ctx.dev ? '/' : './',
+      distDir: 'dist'
     },
 
     devServer: {
