@@ -78,7 +78,7 @@ module.exports = function (ctx) {
           }
         })
       },
-      publicPath: ctx.dev ? '/' : 'https://sandylove0629.github.io/music-player/',
+      publicPath: ctx.dev ? '/' : '/dist/',
       distDir: 'dist'
     },
 
